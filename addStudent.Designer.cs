@@ -38,7 +38,7 @@ namespace Facial_Recognition
             this.trained_picBox = new System.Windows.Forms.PictureBox();
             this.camera_picBox = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.id_txtBox = new System.Windows.Forms.TextBox();
+            this.studentid_txtBox = new System.Windows.Forms.TextBox();
             this.fullname_txtBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.phonenumber_txtBox = new System.Windows.Forms.TextBox();
@@ -51,6 +51,8 @@ namespace Facial_Recognition
             this.program_txtBox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.submit_bttn = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.trained_picBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.camera_picBox)).BeginInit();
             this.SuspendLayout();
@@ -60,7 +62,7 @@ namespace Facial_Recognition
             this.captureFace_bttn.BackColor = System.Drawing.Color.Red;
             this.captureFace_bttn.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.captureFace_bttn.ForeColor = System.Drawing.Color.Yellow;
-            this.captureFace_bttn.Location = new System.Drawing.Point(309, 203);
+            this.captureFace_bttn.Location = new System.Drawing.Point(397, 203);
             this.captureFace_bttn.Name = "captureFace_bttn";
             this.captureFace_bttn.Size = new System.Drawing.Size(74, 62);
             this.captureFace_bttn.TabIndex = 2;
@@ -73,7 +75,7 @@ namespace Facial_Recognition
             this.startRecognize_bttn.BackColor = System.Drawing.Color.Red;
             this.startRecognize_bttn.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startRecognize_bttn.ForeColor = System.Drawing.Color.Yellow;
-            this.startRecognize_bttn.Location = new System.Drawing.Point(397, 203);
+            this.startRecognize_bttn.Location = new System.Drawing.Point(309, 203);
             this.startRecognize_bttn.Name = "startRecognize_bttn";
             this.startRecognize_bttn.Size = new System.Drawing.Size(74, 62);
             this.startRecognize_bttn.TabIndex = 3;
@@ -90,7 +92,7 @@ namespace Facial_Recognition
             this.close_bttn.Name = "close_bttn";
             this.close_bttn.Size = new System.Drawing.Size(74, 62);
             this.close_bttn.TabIndex = 4;
-            this.close_bttn.Text = "Close";
+            this.close_bttn.Text = "Show Image";
             this.close_bttn.UseVisualStyleBackColor = false;
             this.close_bttn.Click += new System.EventHandler(this.close_bttn_Click);
             // 
@@ -105,6 +107,7 @@ namespace Facial_Recognition
             this.stop_bttn.TabIndex = 5;
             this.stop_bttn.Text = "Stop";
             this.stop_bttn.UseVisualStyleBackColor = false;
+            this.stop_bttn.Click += new System.EventHandler(this.stop_bttn_Click);
             // 
             // label1
             // 
@@ -124,7 +127,7 @@ namespace Facial_Recognition
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Yellow;
-            this.label2.Location = new System.Drawing.Point(304, 39);
+            this.label2.Location = new System.Drawing.Point(348, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 18);
             this.label2.TabIndex = 7;
@@ -133,9 +136,9 @@ namespace Facial_Recognition
             // trained_picBox
             // 
             this.trained_picBox.BackColor = System.Drawing.Color.White;
-            this.trained_picBox.Location = new System.Drawing.Point(309, 58);
+            this.trained_picBox.Location = new System.Drawing.Point(333, 79);
             this.trained_picBox.Name = "trained_picBox";
-            this.trained_picBox.Size = new System.Drawing.Size(162, 129);
+            this.trained_picBox.Size = new System.Drawing.Size(110, 107);
             this.trained_picBox.TabIndex = 1;
             this.trained_picBox.TabStop = false;
             // 
@@ -160,13 +163,13 @@ namespace Facial_Recognition
             this.label4.TabIndex = 9;
             this.label4.Text = "Student ID #:";
             // 
-            // id_txtBox
+            // studentid_txtBox
             // 
-            this.id_txtBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id_txtBox.Location = new System.Drawing.Point(606, 56);
-            this.id_txtBox.Name = "id_txtBox";
-            this.id_txtBox.Size = new System.Drawing.Size(182, 27);
-            this.id_txtBox.TabIndex = 10;
+            this.studentid_txtBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studentid_txtBox.Location = new System.Drawing.Point(606, 56);
+            this.studentid_txtBox.Name = "studentid_txtBox";
+            this.studentid_txtBox.Size = new System.Drawing.Size(182, 27);
+            this.studentid_txtBox.TabIndex = 10;
             // 
             // fullname_txtBox
             // 
@@ -214,7 +217,7 @@ namespace Facial_Recognition
             this.address_txtBox.Location = new System.Drawing.Point(606, 205);
             this.address_txtBox.Multiline = true;
             this.address_txtBox.Name = "address_txtBox";
-            this.address_txtBox.Size = new System.Drawing.Size(182, 88);
+            this.address_txtBox.Size = new System.Drawing.Size(182, 60);
             this.address_txtBox.TabIndex = 16;
             // 
             // label6
@@ -295,12 +298,33 @@ namespace Facial_Recognition
             this.submit_bttn.UseVisualStyleBackColor = false;
             this.submit_bttn.Click += new System.EventHandler(this.submit_bttn_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label9.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Yellow;
+            this.label9.Location = new System.Drawing.Point(488, 271);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(51, 18);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "D.O.B";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(606, 273);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(182, 20);
+            this.dateTimePicker1.TabIndex = 25;
+            // 
             // addStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(800, 342);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.submit_bttn);
             this.Controls.Add(this.program_txtBox);
             this.Controls.Add(this.label8);
@@ -313,7 +337,7 @@ namespace Facial_Recognition
             this.Controls.Add(this.label5);
             this.Controls.Add(this.fullname_txtBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.id_txtBox);
+            this.Controls.Add(this.studentid_txtBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -344,7 +368,7 @@ namespace Facial_Recognition
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox id_txtBox;
+        private System.Windows.Forms.TextBox studentid_txtBox;
         private System.Windows.Forms.TextBox fullname_txtBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox phonenumber_txtBox;
@@ -357,5 +381,7 @@ namespace Facial_Recognition
         private System.Windows.Forms.TextBox program_txtBox;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button submit_bttn;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using FaceRecognition;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace Facial_Recognition
 {
@@ -32,7 +33,7 @@ namespace Facial_Recognition
         private void captureFace_bttn_Click(object sender, EventArgs e)
         {
             faceRec.Save_IMAGE(fullname_txtBox.Text);
-            MessageBox.Show(fullname_txtBox.Text + " added Successfully");
+            MessageBox.Show(fullname_txtBox.Text + " captured Successfully");
         }
 
         private void startRecognize_bttn_Click(object sender, EventArgs e)
@@ -42,12 +43,16 @@ namespace Facial_Recognition
 
         private void close_bttn_Click(object sender, EventArgs e)
         {
-//            faceRec.isTrained = true;
+            faceRec.isTrained = true;
         }
 
         private void submit_bttn_Click(object sender, EventArgs e)
         {
-            string query = "INSERT INTO dbo.students (,) values ()";
+            string query = "INSERT INTO dbo.students (studentid, fullname, program, phonenumber, address, dateofbirth, gender, image) values('" + studentid_txtBox.Text + "' ,'" + fullname_txtBox.Text + "','" + program_txtBox.Text + "' ,'" + phonenumber_txtBox.Text + "','" + address_txtBox.Text + "' ,'" + dateTimePicker1.Text + "','" + gender_txtBox.Text + "',@Pic)";
+            MemoryStream stream = new MemoryStream();
+            trained_picBox.Image.Save(stream, System.Drawing.Imaging.ImageFormat.Jpeg);
+            byte[] pic = stream.ToArray();
+            cmd.Parameters.AddWithValue("@Pic",pic);
             executeQuery(query);
         }
 
@@ -76,8 +81,8 @@ namespace Facial_Recognition
 
                 if (cmd.ExecuteNonQuery() == 1)
                 {
-                    x = cmd.ExecuteNonQuery();
-                    MessageBox.Show(x.ToString() + "record(s) saved.");
+                    //x = cmd.ExecuteNonQuery();
+                    MessageBox.Show("Data saved.");
                 }
                 else
                 {
@@ -92,6 +97,11 @@ namespace Facial_Recognition
             {
                 CloseConn();
             }
+        }
+
+        private void stop_bttn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
