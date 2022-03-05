@@ -50,6 +50,7 @@ namespace Facial_Recognition
             this.button5 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -278,12 +279,25 @@ namespace Facial_Recognition
             this.label8.TabIndex = 20;
             this.label8.Text = "Program:";
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Red;
+            this.button6.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Yellow;
+            this.button6.Location = new System.Drawing.Point(695, 299);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(93, 31);
+            this.button6.TabIndex = 22;
+            this.button6.Text = "Submit";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
             // addStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(800, 342);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button5);
@@ -338,5 +352,6 @@ namespace Facial_Recognition
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button6;
     }
 }

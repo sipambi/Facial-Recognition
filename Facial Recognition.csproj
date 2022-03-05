@@ -56,6 +56,18 @@
     <Compile Include="addStudent.Designer.cs">
       <DependentUpon>addStudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="attendanceCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendanceCheck.Designer.cs">
+      <DependentUpon>attendanceCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="attendanceRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendanceRegister.Designer.cs">
+      <DependentUpon>attendanceRegister.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +84,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="addStudent.resx">
       <DependentUpon>addStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attendanceCheck.resx">
+      <DependentUpon>attendanceCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attendanceRegister.resx">
+      <DependentUpon>attendanceRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
