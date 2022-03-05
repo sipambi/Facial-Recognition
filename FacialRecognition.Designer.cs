@@ -90,6 +90,7 @@
             this.addStudent_picBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.addStudent_picBox.TabIndex = 2;
             this.addStudent_picBox.TabStop = false;
+            this.addStudent_picBox.Click += new System.EventHandler(this.addStudent_picBox_Click);
             // 
             // label3
             // 
