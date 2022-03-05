@@ -31,14 +31,23 @@ namespace Facial_Recognition
 
         private void checkattendance_picBox_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            AttendanceCheck markRegister = new AttendanceCheck();
+            markRegister.Show();
         }
 
         private void register_picBox_Click(object sender, EventArgs e)
         {
             this.Hide();
-            attendanceRegister myRegister = new attendanceRegister();
+            ShowRegister myRegister = new ShowRegister();
             myRegister.Show();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
         }
     }
 }

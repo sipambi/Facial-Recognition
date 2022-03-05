@@ -37,7 +37,7 @@
             this.checkattendance_picBox = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.register_picBox = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.logout_lbl = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.logo_picBox = new System.Windows.Forms.PictureBox();
@@ -136,16 +136,17 @@
             this.register_picBox.TabStop = false;
             this.register_picBox.Click += new System.EventHandler(this.register_picBox_Click);
             // 
-            // label5
+            // logout_lbl
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Yellow;
-            this.label5.Location = new System.Drawing.Point(540, 381);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 18);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Logout";
+            this.logout_lbl.AutoSize = true;
+            this.logout_lbl.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logout_lbl.ForeColor = System.Drawing.Color.Yellow;
+            this.logout_lbl.Location = new System.Drawing.Point(504, 369);
+            this.logout_lbl.Name = "logout_lbl";
+            this.logout_lbl.Size = new System.Drawing.Size(109, 33);
+            this.logout_lbl.TabIndex = 9;
+            this.logout_lbl.Text = "Logout";
+            this.logout_lbl.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -184,7 +185,7 @@
             this.Controls.Add(this.logo_picBox);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.logout_lbl);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.register_picBox);
             this.Controls.Add(this.label3);
@@ -215,7 +216,7 @@
         private System.Windows.Forms.PictureBox checkattendance_picBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox register_picBox;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label logout_lbl;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox logo_picBox;
