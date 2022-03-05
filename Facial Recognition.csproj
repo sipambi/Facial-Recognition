@@ -116,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="haarcascade_frontalface_alt.xml" />
+    <None Include="images\oglogo1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

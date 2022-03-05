@@ -118,7 +118,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(30, 12);
+            this.pictureBox1.Image = global::Facial_Recognition.Properties.Resources.oglogo1;
+            this.pictureBox1.Location = new System.Drawing.Point(29, 18);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(170, 172);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

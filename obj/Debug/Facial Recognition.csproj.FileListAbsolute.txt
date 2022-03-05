@@ -12,3 +12,17 @@ C:\Users\Posod\source\repos\Facial-Recognition\obj\Debug\Facial Recognition.cspr
 C:\Users\Posod\source\repos\Facial-Recognition\obj\Debug\Facial Recognition.exe
 C:\Users\Posod\source\repos\Facial-Recognition\obj\Debug\Facial Recognition.pdb
 C:\Users\Posod\source\repos\Facial-Recognition\obj\Debug\Facial_Recognition.attendanceRegister.resources
+C:\Users\max\Documents\Repos\Face\bin\Debug\Facial Recognition.exe.config
+C:\Users\max\Documents\Repos\Face\bin\Debug\Facial Recognition.exe
+C:\Users\max\Documents\Repos\Face\bin\Debug\Facial Recognition.pdb
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial Recognition.csproj.AssemblyReference.cache
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial_Recognition.addStudent.resources
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial_Recognition.attendanceRegister.resources
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial_Recognition.Login.resources
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial_Recognition.FacialRecognition.resources
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial_Recognition.Properties.Resources.resources
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial Recognition.csproj.GenerateResource.cache
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial Recognition.csproj.CoreCompileInputs.cache
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial Recognition.csproj.CopyComplete
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial Recognition.exe
+C:\Users\max\Documents\Repos\Face\obj\Debug\Facial Recognition.pdb
