@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FacialRecognition));
-
             this.addUser_picBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -91,6 +90,7 @@
             this.addStudent_picBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.addStudent_picBox.TabIndex = 2;
             this.addStudent_picBox.TabStop = false;
+            this.addStudent_picBox.Click += new System.EventHandler(this.addStudent_picBox_Click);
             // 
             // label3
             // 
@@ -172,6 +172,7 @@
             this.logo_picBox.TabIndex = 12;
             this.logo_picBox.TabStop = false;
             // 
+            // FacialRecognition
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -191,7 +192,6 @@
             this.Controls.Add(this.addUser_picBox);
             this.Name = "FacialRecognition";
             this.Text = "Facial Recognition Attendance Sytem";
-
             ((System.ComponentModel.ISupportInitialize)(this.addUser_picBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.addStudent_picBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkattendance_picBox)).EndInit();

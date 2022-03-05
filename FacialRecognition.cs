@@ -21,5 +21,12 @@ namespace Facial_Recognition
         {
 
         }
+
+        private void addStudent_picBox_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            addStudent newStudent = new addStudent();
+            newStudent.Show();
+        }
     }
 }

@@ -66,6 +66,7 @@ namespace Facial_Recognition
             this.captureFace_bttn.TabIndex = 2;
             this.captureFace_bttn.Text = "Capture Face";
             this.captureFace_bttn.UseVisualStyleBackColor = false;
+            this.captureFace_bttn.Click += new System.EventHandler(this.captureFace_bttn_Click);
             // 
             // startRecognize_bttn
             // 
@@ -78,6 +79,7 @@ namespace Facial_Recognition
             this.startRecognize_bttn.TabIndex = 3;
             this.startRecognize_bttn.Text = "Start and Recognize";
             this.startRecognize_bttn.UseVisualStyleBackColor = false;
+            this.startRecognize_bttn.Click += new System.EventHandler(this.startRecognize_bttn_Click);
             // 
             // close_bttn
             // 
@@ -90,6 +92,7 @@ namespace Facial_Recognition
             this.close_bttn.TabIndex = 4;
             this.close_bttn.Text = "Close";
             this.close_bttn.UseVisualStyleBackColor = false;
+            this.close_bttn.Click += new System.EventHandler(this.close_bttn_Click);
             // 
             // stop_bttn
             // 
@@ -114,7 +117,6 @@ namespace Facial_Recognition
             this.label1.Size = new System.Drawing.Size(65, 18);
             this.label1.TabIndex = 6;
             this.label1.Text = "Camera";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -154,16 +156,16 @@ namespace Facial_Recognition
             this.label4.ForeColor = System.Drawing.Color.Yellow;
             this.label4.Location = new System.Drawing.Point(488, 58);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 18);
+            this.label4.Size = new System.Drawing.Size(109, 18);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Student ID:";
+            this.label4.Text = "Student ID #:";
             // 
             // id_txtBox
             // 
             this.id_txtBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.id_txtBox.Location = new System.Drawing.Point(606, 56);
             this.id_txtBox.Name = "id_txtBox";
-            this.id_txtBox.Size = new System.Drawing.Size(83, 27);
+            this.id_txtBox.Size = new System.Drawing.Size(182, 27);
             this.id_txtBox.TabIndex = 10;
             // 
             // fullname_txtBox
@@ -258,6 +260,7 @@ namespace Facial_Recognition
             this.back_bttn.TabIndex = 19;
             this.back_bttn.Text = "Back";
             this.back_bttn.UseVisualStyleBackColor = false;
+            this.back_bttn.Click += new System.EventHandler(this.back_bttn_Click);
             // 
             // program_txtBox
             // 
@@ -290,6 +293,7 @@ namespace Facial_Recognition
             this.submit_bttn.TabIndex = 22;
             this.submit_bttn.Text = "Submit";
             this.submit_bttn.UseVisualStyleBackColor = false;
+            this.submit_bttn.Click += new System.EventHandler(this.submit_bttn_Click);
             // 
             // addStudent
             // 
