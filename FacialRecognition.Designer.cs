@@ -131,6 +131,7 @@
             this.register_picBox.Location = new System.Drawing.Point(498, 12);
             this.register_picBox.Name = "register_picBox";
             this.register_picBox.Size = new System.Drawing.Size(101, 75);
+            this.register_picBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.register_picBox.TabIndex = 6;
             this.register_picBox.TabStop = false;
             this.register_picBox.Click += new System.EventHandler(this.register_picBox_Click);

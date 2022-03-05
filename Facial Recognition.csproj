@@ -77,6 +77,12 @@
     <Compile Include="addStudent.Designer.cs">
       <DependentUpon>addStudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="addUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addUser.Designer.cs">
+      <DependentUpon>addUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="attendanceRegister.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="addStudent.resx">
       <DependentUpon>addStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addUser.resx">
+      <DependentUpon>addUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="attendanceRegister.resx">
       <DependentUpon>attendanceRegister.cs</DependentUpon>
@@ -139,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="haarcascade_frontalface_alt.xml" />
+    <None Include="images\oglogo1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
