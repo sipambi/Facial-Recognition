@@ -17,7 +17,7 @@ namespace Facial_Recognition
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void addUser_picBox_Click(object sender, EventArgs e)
         {
 
         }

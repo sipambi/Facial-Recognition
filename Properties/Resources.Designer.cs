@@ -59,7 +59,6 @@ namespace Facial_Recognition.Properties {
                 resourceCulture = value;
             }
         }
-        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
@@ -126,6 +125,5 @@ namespace Facial_Recognition.Properties {
             }
         }
 
-        
     }
 }
