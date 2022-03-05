@@ -28,32 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.username_txtBox = new System.Windows.Forms.TextBox();
+            this.password_txtBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.login_bttn = new System.Windows.Forms.Button();
+            this.cancel_bttn = new System.Windows.Forms.Button();
+            this.changepassword_bttn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // username_txtBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(263, 32);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(213, 27);
-            this.textBox1.TabIndex = 0;
+            this.username_txtBox.Location = new System.Drawing.Point(263, 32);
+            this.username_txtBox.Multiline = true;
+            this.username_txtBox.Name = "username_txtBox";
+            this.username_txtBox.Size = new System.Drawing.Size(213, 27);
+            this.username_txtBox.TabIndex = 0;
             // 
-            // textBox2
+            // password_txtBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(263, 81);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(213, 27);
-            this.textBox2.TabIndex = 1;
+            this.password_txtBox.Location = new System.Drawing.Point(263, 81);
+            this.password_txtBox.Multiline = true;
+            this.password_txtBox.Name = "password_txtBox";
+            this.password_txtBox.Size = new System.Drawing.Size(213, 27);
+            this.password_txtBox.TabIndex = 1;
             // 
             // label1
             // 
@@ -73,36 +73,38 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Password";
             // 
-            // button1
+            // login_bttn
             // 
-            this.button1.Location = new System.Drawing.Point(263, 114);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 28);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Ok";
-            this.button1.UseVisualStyleBackColor = true;
+            this.login_bttn.Location = new System.Drawing.Point(263, 114);
+            this.login_bttn.Name = "login_bttn";
+            this.login_bttn.Size = new System.Drawing.Size(90, 28);
+            this.login_bttn.TabIndex = 4;
+            this.login_bttn.Text = "Ok";
+            this.login_bttn.UseVisualStyleBackColor = true;
+            this.login_bttn.Click += new System.EventHandler(this.login_bttn_Click);
             // 
-            // button2
+            // cancel_bttn
             // 
-            this.button2.Location = new System.Drawing.Point(386, 114);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 28);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Cancel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.cancel_bttn.Location = new System.Drawing.Point(386, 114);
+            this.cancel_bttn.Name = "cancel_bttn";
+            this.cancel_bttn.Size = new System.Drawing.Size(90, 28);
+            this.cancel_bttn.TabIndex = 5;
+            this.cancel_bttn.Text = "Cancel";
+            this.cancel_bttn.UseVisualStyleBackColor = true;
+            this.cancel_bttn.Click += new System.EventHandler(this.cancel_bttn_Click);
             // 
-            // button3
+            // changepassword_bttn
             // 
-            this.button3.Location = new System.Drawing.Point(307, 148);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(127, 28);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Change Password";
-            this.button3.UseVisualStyleBackColor = true;
+            this.changepassword_bttn.Location = new System.Drawing.Point(307, 148);
+            this.changepassword_bttn.Name = "changepassword_bttn";
+            this.changepassword_bttn.Size = new System.Drawing.Size(127, 28);
+            this.changepassword_bttn.TabIndex = 6;
+            this.changepassword_bttn.Text = "Change Password";
+            this.changepassword_bttn.UseVisualStyleBackColor = true;
+            this.changepassword_bttn.Click += new System.EventHandler(this.changepassword_bttn_Click);
             // 
             // pictureBox1
             // 
-            //this.pictureBox1.Image = global::Facial_Recognition.Properties.Resources.logo;
             this.pictureBox1.Location = new System.Drawing.Point(30, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(170, 172);
@@ -110,20 +112,20 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(505, 202);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.changepassword_bttn);
+            this.Controls.Add(this.cancel_bttn);
+            this.Controls.Add(this.login_bttn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
+            this.Controls.Add(this.password_txtBox);
+            this.Controls.Add(this.username_txtBox);
+            this.Name = "Login";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -133,13 +135,13 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox username_txtBox;
+        private System.Windows.Forms.TextBox password_txtBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button login_bttn;
+        private System.Windows.Forms.Button cancel_bttn;
+        private System.Windows.Forms.Button changepassword_bttn;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

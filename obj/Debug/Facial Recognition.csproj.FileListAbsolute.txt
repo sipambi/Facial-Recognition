@@ -9,3 +9,15 @@ C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial Recogni
 C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial Recognition.csproj.CoreCompileInputs.cache
 C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial Recognition.exe
 C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial Recognition.pdb
+C:\Users\Posod\Source\Repos\Facial-Recognition\obj\Debug\Facial Recognition.csproj.AssemblyReference.cache
+C:\Users\Posod\Source\Repos\Facial-Recognition\obj\Debug\Facial_Recognition.Login.resources
+C:\Users\Posod\Source\Repos\Facial-Recognition\obj\Debug\Facial_Recognition.FacialRecognition.resources
+C:\Users\Posod\Source\Repos\Facial-Recognition\obj\Debug\Facial Recognition.csproj.GenerateResource.cache
+C:\Users\Posod\Source\Repos\Facial-Recognition\obj\Debug\Facial Recognition.exe
+C:\Users\Posod\Source\Repos\Facial-Recognition\obj\Debug\Facial Recognition.pdb
+C:\Users\Posod\Source\Repos\Facial-Recognition\bin\Debug\Facial Recognition.exe.config
+C:\Users\Posod\Source\Repos\Facial-Recognition\bin\Debug\Facial Recognition.exe
+C:\Users\Posod\Source\Repos\Facial-Recognition\bin\Debug\Facial Recognition.pdb
+C:\Users\Posod\Source\Repos\Facial-Recognition\obj\Debug\Facial_Recognition.Properties.Resources.resources
+C:\Users\Posod\Source\Repos\Facial-Recognition\obj\Debug\Facial Recognition.csproj.CoreCompileInputs.cache
+C:\Users\Posod\Source\Repos\Facial-Recognition\obj\Debug\Facial Recognition.csproj.CopyComplete
