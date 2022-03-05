@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Facial_Recognition
 {
-    public partial class Form2 : Form
+    public partial class FacialRecognition : Form
     {
-        public Form2()
+        public FacialRecognition()
         {
             InitializeComponent();
         }

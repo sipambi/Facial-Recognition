@@ -1,6 +1,6 @@
 ﻿namespace Facial_Recognition
 {
-    partial class Form2
+    partial class FacialRecognition
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD:Form2.Designer.cs
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+=======
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FacialRecognition));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+>>>>>>> dcc95d296dd0f8355c960e381c46ff820514abe4:FacialRecognition.Designer.cs
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();

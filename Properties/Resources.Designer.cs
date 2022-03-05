@@ -73,6 +73,36 @@ namespace Facial_Recognition.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap db {
+            get {
+                object obj = ResourceManager.GetObject("db", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stud_add {
+            get {
+                object obj = ResourceManager.GetObject("stud_add", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stud_add1 {
+            get {
+                object obj = ResourceManager.GetObject("stud_add1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_add {
             get {
                 object obj = ResourceManager.GetObject("user_add", resourceCulture);
@@ -83,14 +113,6 @@ namespace Facial_Recognition.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap stud_add1
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("stud_add1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
 
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -104,16 +126,6 @@ namespace Facial_Recognition.Properties {
             }
         }
 
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap db
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("db", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
+        
     }
 }
