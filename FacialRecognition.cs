@@ -28,5 +28,17 @@ namespace Facial_Recognition
             addStudent newStudent = new addStudent();
             newStudent.Show();
         }
+
+        private void checkattendance_picBox_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void register_picBox_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            attendanceRegister myRegister = new attendanceRegister();
+            myRegister.Show();
+        }
     }
 }

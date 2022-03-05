@@ -112,6 +112,7 @@
             this.checkattendance_picBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.checkattendance_picBox.TabIndex = 4;
             this.checkattendance_picBox.TabStop = false;
+            this.checkattendance_picBox.Click += new System.EventHandler(this.checkattendance_picBox_Click);
             // 
             // label4
             // 
@@ -132,6 +133,7 @@
             this.register_picBox.Size = new System.Drawing.Size(101, 75);
             this.register_picBox.TabIndex = 6;
             this.register_picBox.TabStop = false;
+            this.register_picBox.Click += new System.EventHandler(this.register_picBox_Click);
             // 
             // label5
             // 
