@@ -11,3 +11,4 @@ C:\Users\Posod\source\repos\Facial-Recognition\obj\Debug\Facial Recognition.cspr
 C:\Users\Posod\source\repos\Facial-Recognition\obj\Debug\Facial Recognition.csproj.CopyComplete
 C:\Users\Posod\source\repos\Facial-Recognition\obj\Debug\Facial Recognition.exe
 C:\Users\Posod\source\repos\Facial-Recognition\obj\Debug\Facial Recognition.pdb
+C:\Users\Posod\source\repos\Facial-Recognition\obj\Debug\Facial_Recognition.attendanceRegister.resources
