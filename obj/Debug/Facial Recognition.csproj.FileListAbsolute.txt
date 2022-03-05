@@ -1,0 +1,11 @@
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\bin\Debug\Facial Recognition.exe.config
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\bin\Debug\Facial Recognition.exe
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\bin\Debug\Facial Recognition.pdb
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial Recognition.csprojAssemblyReference.cache
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial_Recognition.Form1.resources
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial_Recognition.Form2.resources
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial_Recognition.Properties.Resources.resources
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial Recognition.csproj.GenerateResource.cache
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial Recognition.csproj.CoreCompileInputs.cache
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial Recognition.exe
+C:\Users\max\Documents\2022 Projects\Facial-Recognition\obj\Debug\Facial Recognition.pdb
