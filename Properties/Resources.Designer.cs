@@ -63,9 +63,15 @@ namespace Facial_Recognition.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap attend {
             get {
                 object obj = ResourceManager.GetObject("attend", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap logo {
+            get {
+                object obj = ResourceManager.GetObject("logo", resourceCulture);
+>>>>>>> cf5f0b2a35f436f93db1d10b198b661c96d2b3db
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,6 +79,7 @@ namespace Facial_Recognition.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap db {
             get {
                 object obj = ResourceManager.GetObject("db", resourceCulture);
@@ -106,6 +113,47 @@ namespace Facial_Recognition.Properties {
         internal static System.Drawing.Bitmap user_add {
             get {
                 object obj = ResourceManager.GetObject("user_add", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap user_add {
+            get {
+                object obj = ResourceManager.GetObject("user_add", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stud_add1
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("stud_add1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap attend
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("attend", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap db
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("db", resourceCulture);
+>>>>>>> cf5f0b2a35f436f93db1d10b198b661c96d2b3db
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

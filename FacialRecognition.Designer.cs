@@ -50,7 +50,7 @@
             // 
             // pictureBox1
             // 
-            //this.pictureBox1.Image = global::Facial_Recognition.Properties.Resources.user_add;
+            this.pictureBox1.Image = global::Facial_Recognition.Properties.Resources.user_add;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(101, 75);
@@ -83,9 +83,11 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::Facial_Recognition.Properties.Resources.stud_add1;
             this.pictureBox2.Location = new System.Drawing.Point(161, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(101, 75);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
@@ -102,9 +104,11 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = global::Facial_Recognition.Properties.Resources.attend;
             this.pictureBox3.Location = new System.Drawing.Point(331, 12);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(101, 75);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
             // 
@@ -121,6 +125,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::Facial_Recognition.Properties.Resources.db;
             this.pictureBox4.Location = new System.Drawing.Point(498, 12);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(101, 75);
